@@ -1,0 +1,8 @@
+You can run the notebook on Google Colab and connect it to Drive. 
+In the initial cells necessary libraries are installed and imported.
+
+The "Data loading" and "Data pre-processing" sections include all the operations conducted on the dataset to obtain the final version. Specifically, undersampling, train-test splitting, and feature extraction were performed. These sections can be skipped and you can start directly from the "SML Models"; in the first cell the final dataset is loaded. You can access the link to this dataset here:
+
+https://drive.google.com/drive/folders/15OWqG56iVilR-bN0yU6zhG-VbaD6VXM6?usp=drive_link
+
+Additionally, in case you wish to run all the pre-processing code, the "model.h5" file used for feature extraction can be found here.
