@@ -18,7 +18,7 @@ The following CL strategies will be of interest:
 During the i-th experience's training, Cumulative Training trains the model on all the experiences from the first to the i-th. Please remember to shuffle the training data before starting each experience’s training.
 - Replay strategies: Random Replay:
 It uses a fixed-size Random Memory (RM) to store a subset of random previous experiences' data points. During the training on the i-th experience, it trains the model on the i-th training set shuffled with a fixed-size Random Memory (RM). RM contains a random subset of the data points of the previous experiences' training sets. After the training, it randomly substitutes some data points with a random subset of the current experience's training set in RM. This way, RM will be updated for the next experience and maintain an approximately equal number of examples for each experience.
-The algorithm is detailed as follows.
+The algorithm is detailed as follows.\
 ![plot](./images/random_replay.png)
 - Regularization strategies: Elastic Weight Consolidation (EWC).
 
